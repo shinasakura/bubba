@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ecf0f1; /* Background color for the entire page */
+}
+
+#circle, #sunflower, #message-container {
+  position: absolute;
+  display: none;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#sunflower {
+  width: 100px;
+  height: 100px;
+  background-image: url('sunflower.png'); /* Replace 'sunflower.png' with your sunflower image */
+  background-size: cover;
+  cursor: pointer;
+}
+
+#message-container {
+  background-color: #e91e63; /* Pink background color for the message */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#message {
+  color: #fff; /* White text color for the message */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
